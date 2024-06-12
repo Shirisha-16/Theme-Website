@@ -1,13 +1,12 @@
-.body{
-    padding:50px;
-    margin:50px;
-    display:flex;
+ body{
+    font-family:General Sans, sans-serif;
+    background-color:rgb(245 243 234);
 }
 .container{
     margin-top:20px;
     /* font-weight:bold; */
-    font-family:General Sans, sans-serif;
     font-size: 20px;
+    font-family:General Sans, sans-serif;
     display:flex;
     gap:45px;
     color:rgb(27 28 29);
@@ -38,12 +37,78 @@
     color:rgb(255 153 102);
 }
 #content{
-    font-size:80px;
-    font-weight:bold;
-    width:650px;
+    font-weight:600;
+    font-size:46px;
+    width:600px;
     padding-left:30px;
-    font-family:General Sans, sans-serif;
 }
+#co{
+    padding-left:30px;
+    width:600px;
+    font-weight:40px;
+    font-size:20px;
+    padding-top:0;
+    line-height: 30px;
+}
+#core{
+    font-family:General Sans, sans-serif;
+    margin-top:50px; 
+    display:flex; 
+    gap:40px;
+}
+#camp{
+  gap:40px;
+}
+#box{
+    float:right;
+}
+#collapse{
+    margin-top:50px;
+    margin-left:-60px;
+    margin-right:20px;
+}
+#details{
+    display:flex;
+    margin-left:30px;
+    margin-top:40px;
+    padding:10px;
+    background-color:white;
+    width:320px;
+    border-radius:3px;
+    font-weight:bold;
+}
+#bo{
+    border:none;
+    background-color:rgb(255 153 102);
+    padding:10px;
+    margin:5px;
+    border-radius:3px;
+    width:100px;
+    text-align:center;
+}
+#bo:hover{
+    background-color:white;
+    border:3px solid rgb(255 153 102);
+}
+.email{
+    border:none;
+    font-weight:bold;
+    font-size:15px;
+}
+ input:focus{
+    outline:none;
+    border:none;
+ }
+ #accelerator{
+    float:right;
+    margin-right:80px;
+    margin-top:10px;
+ }
+ #star{
+    display:flex;
+    margin-left:50px;
+    margin-top:5px;
+ }
 
 
 

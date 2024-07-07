@@ -316,7 +316,7 @@ margin-block-start:50px;
     background-color:white;
 }
 #experts img{
-    width:300px;
+    width:25%;
 }
 #Meet{
     display:flex;
@@ -509,8 +509,16 @@ ul li img{
 #Resources p{
     background-color:black;
     color:white;
+    height:20px;
+    padding:20px;
+    border-radius:4px;
   
     /* padding:2px; */
+}
+#Resources p:hover{
+    background-color:white;
+    border:2px solid black ;
+    color:black;
 }
 #Pages{
     display:flex;
